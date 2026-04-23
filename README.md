@@ -45,6 +45,7 @@ Why this tier:
 | --- | --- |
 | Package ID | `ui-table` |
 | Import Name | `@platform/ui-table` |
+| Canonical Namespace Target | `@gutu/ui-table` |
 | UI Surface | Headless typed exports |
 | Consumption Model | Imports + typed helpers |
 | Verification | Build+Typecheck+Lint+Test |
@@ -54,10 +55,18 @@ Why this tier:
 | Field | Value |
 | --- | --- |
 | Package Name | `@platform/ui-table` |
+| Canonical Namespace Target | `@gutu/ui-table` |
+| Legacy Compatibility IDs | `@platform/ui-table` |
 | Direct Dependencies | `@tanstack/react-table` |
 | Peer Dependencies | None |
 | React Runtime | No |
 | Workspace Requirement | Standalone dependency graph is self-contained |
+
+## Namespace Policy
+
+- `@gutu/*` is the canonical public framework namespace for new work.
+- This repo currently publishes `@platform/ui-table` as the legacy compatibility package id while the migration to `@gutu/ui-table` is completed.
+- Catalog metadata carries the canonical target id so dashboards, docs, and future tooling can present one uniform Gutu namespace without breaking current consumers.
 
 ## Capability Matrix
 

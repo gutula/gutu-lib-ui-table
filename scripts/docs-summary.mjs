@@ -3,6 +3,7 @@ const summary = {
   "repoName": "gutu-lib-ui-table",
   "packageId": "ui-table",
   "displayName": "UI Table",
+  "packageCount": 1,
   "group": "UI Foundation",
   "maturity": "Hardened",
   "description": "TanStack Table wrapper APIs.",

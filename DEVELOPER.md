@@ -35,6 +35,7 @@ Provides reusable table components and front-end helpers so data-heavy surfaces 
 | Package ID | `ui-table` |
 | Display Name | UI Table |
 | Import Name | `@platform/ui-table` |
+| Canonical Namespace Target | `@gutu/ui-table` |
 | Version | `0.1.0` |
 | UI Surface | Headless typed exports |
 | Consumption Model | Imports + typed helpers |
@@ -48,6 +49,7 @@ Provides reusable table components and front-end helpers so data-heavy surfaces 
 | Dev Dependencies | None |
 | React Runtime | No |
 | Workspace Scoped | No |
+| Legacy Compatibility IDs | `@platform/ui-table` |
 
 ### Dependency interpretation
 
